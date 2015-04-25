@@ -63,7 +63,7 @@ Using the current C++11 standard files can just be created, modified and deleted
 
 ## Initialization ##
 
-The library isn't a singleton, so the user should provide the logger instance. Even of many modules call the initialization function only one of them will succeed.
+The library isn't a singleton, so the user should provide the logger instance. Even if many modules call the initialization function only one of them will succeed.
 
 There are two methods to enqueue a log entry, one is to provide it explicitly and the other one is by accessing a global function.
 
